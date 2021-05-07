@@ -19,14 +19,10 @@ const Appwork: React.FC = () => { //qrcode-react is not yet ES6 module feature c
     setMessage(event.target.value);
   }
 
-  const ShowURL = (event: any) => {
-    setUrl(event.target.value);
-  }
-
   const ShowNumber = (event: any) => {
     setNumber(event.target.value);
   }
-  
+
   const ShowMail = (event: any) => {
     setMail(event.target.value);
   }
@@ -37,6 +33,10 @@ const Appwork: React.FC = () => { //qrcode-react is not yet ES6 module feature c
   
   const ShowBody = (event: any) => {
     setBody(event.target.value);
+  }
+
+  const ShowURL = (event: any) => {
+    setUrl(event.target.value);
   }
 
   return (
